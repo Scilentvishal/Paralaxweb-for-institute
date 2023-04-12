@@ -1,0 +1,59 @@
+header{
+    background-image: url("images/freelance-business-women-casual-wear-using-laptop-working-call-video-conference-with-customer-workplace-living-room-home-happy-young-asian-girl-relax-sitting-desk-job-internet.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 0px -100px;
+background-attachment: fixed;
+
+}
+.navbar-brand{
+    color: white;
+}
+.Course img{
+    border-radius: 50%;
+    height: 200px;
+}
+#fourth{
+    background-image: url("images/young-pretty-woman-working-with-laptop-taking-notes-desktop-office.jpg");
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: 0px -80px;
+background-attachment: fixed;
+color: white;
+}
+.recent a{
+    text-decoration: none;
+}
+#footer{
+    background: rgb(250,14,241);
+background: linear-gradient(170deg, rgba(250,14,241,1) 13%, rgba(0,74,255,1) 82%);
+color: white;
+
+}
+.footer-content{
+    padding-right: 6rem;
+}
+@media only screen and (max-width: 990px) {
+    #navbarSupportedContent{
+              
+              background-color: blue;
+              z-index: 2000;
+              position: sticky;
+    }
+  }
+  #navbarSupportedContent a{
+      color: white;
+}
+}
+@media only screen and (max-width: 600px) {
+    .Course img{
+        
+        height: 150px;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .Course img{
+        height: 100px;
+    }
+  }
+  
